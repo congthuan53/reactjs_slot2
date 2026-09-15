@@ -1,0 +1,48 @@
+const orchids = [
+  {
+    id: 1,
+    name: 'Hồ Điệp Trắng',
+    scientificName: 'Phalaenopsis amabilis',
+    color: 'Trắng',
+    difficulty: 'Dễ',
+    price: 320000,
+    symbol: 'PA',
+    description: 'Hoa trắng thanh lịch, bền và phù hợp với người mới chăm lan.',
+    care: 'Đặt nơi có ánh sáng tán xạ và tưới khi giá thể gần khô.',
+  },
+  {
+    id: 2,
+    name: 'Dendro Tím',
+    scientificName: 'Dendrobium anosmum',
+    color: 'Tím',
+    difficulty: 'Trung bình',
+    price: 280000,
+    symbol: 'DA',
+    description: 'Sắc tím nổi bật, thân dài và có hương thơm nhẹ vào mùa hoa.',
+    care: 'Cần nơi thoáng gió, nhiều ánh sáng và giảm tưới vào mùa nghỉ.',
+  },
+  {
+    id: 3,
+    name: 'Vũ Nữ Vàng',
+    scientificName: 'Oncidium sphacelatum',
+    color: 'Vàng',
+    difficulty: 'Dễ',
+    price: 240000,
+    symbol: 'OS',
+    description: 'Chùm hoa vàng nhỏ tạo cảm giác như những vũ công đang chuyển động.',
+    care: 'Giữ ẩm vừa phải, tránh nắng gắt và bổ sung phân loãng định kỳ.',
+  },
+  {
+    id: 4,
+    name: 'Cattleya Hồng',
+    scientificName: 'Cattleya labiata',
+    color: 'Hồng',
+    difficulty: 'Khó',
+    price: 450000,
+    symbol: 'CL',
+    description: 'Bông lớn, màu hồng đậm và thường được gọi là nữ hoàng của các loài lan.',
+    care: 'Cần ánh sáng mạnh vừa đủ, độ ẩm ổn định và giá thể thoát nước tốt.',
+  },
+]
+
+export default orchids

@@ -1,16 +1,25 @@
-# React + Vite
+# Route Garden
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project demo cho Chapter 06: Handling Navigation with Routes. Nội dung tập trung vào route parameter và `useParams`, đồng thời có ví dụ cho các phần còn lại trong chương.
 
-Currently, two official plugins are available:
+## Chạy project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+## Các phần demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `BrowserRouter`, `Routes` và `Route`
+- `Link`, `NavLink` và `Navigate`
+- Route parameter `/orchids/:id` và `useParams`
+- Search parameter và `useSearchParams`
+- Nested routes và `Outlet`
+- `useLocation`, `useNavigate` và `useRoutes`
+- Custom Hook với `useDocumentTitle` và `useStudyCounter`
+- Route `*` cho trang 404
 
-## Expanding the ESLint configuration
+Mở `/custom-hook` để thử đổi tên tab trình duyệt và quan sát hai component dùng chung logic nhưng giữ state độc lập.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Kịch bản trình bày chi tiết nằm trong [PRESENTATION_GUIDE.md](./PRESENTATION_GUIDE.md).
